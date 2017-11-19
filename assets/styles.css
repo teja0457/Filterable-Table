@@ -1,0 +1,115 @@
+/*table css start*/
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px
+}
+::-webkit-scrollbar-button {
+    background: #888
+}
+::-webkit-scrollbar-track-piece {
+    background: #ccc
+}
+::-webkit-scrollbar-thumb {
+    background: #eee
+}
+.table_heading{
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.table_container{
+	width: 98%;
+	margin-left: 1%;
+	overflow: auto;
+}
+.table_row{
+	display: flex;
+}
+.cell{
+	flex: 1 0 250px;
+    word-wrap: break-word;
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
+.cell .asc{
+    width: 0px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #FFFFFF;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+.cell .desc{
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #FFFFFF;
+	margin-bottom: 4px;
+	margin-left: 10px;
+}
+.dropdown_container{
+	display: flex;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+}
+.search_container{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+}
+.filter_list_container{
+	position: absolute;
+    z-index: 10;
+    background-color: azure;
+    border: 1px solid red;
+    height: 150px;
+    overflow-y: auto;
+    border-radius: 8px;
+    left: 176px;
+}
+tbody .table_row:nth-child(even) .cell{
+	background-color: #CCCCCC;		
+}
+tbody .cell label{
+	max-width: 250px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.cell label{
+	padding-left: 10px;
+}
+.filter_cell{
+	border-bottom: 1px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+thead .cell{
+	background-color: blue;
+    color: #FFFFFF;
+}
+.dropdown_container .dropdown_label{
+	padding-right: 5px;
+}
+.dropdown_container .dropdown{
+	padding-right: 5px;
+    padding-left: 5px;
+    border: 1px solid #CCCCCC;
+    width: auto;
+    color: green;
+}
+.search_field{
+	margin-right: 5px;
+    padding-left: 5px;
+}
+/*table css end*/
+
