@@ -1,6 +1,6 @@
-# react-example
+# Filterable-Table
 
-React example app that demonstrates using [React] with [webpack], and [babeljs], as well as project structure.
+Filterable-Table with Sorting and Search/Filter Functionality.
 
 Requirements:
 - git
@@ -11,7 +11,7 @@ To run the app locally:
 
 ```bash
 git clone https://github.com/teja0457/Filterable-Table.git
-cd react-example
+cd Filterable-Table
 npm run setup
 npm run dev
 open http://localhost:8080
