@@ -87,6 +87,7 @@ tbody .cell label{
 }
 .cell label{
 	padding-left: 10px;
+    margin-bottom: 0px;
 }
 .filter_cell{
 	border-bottom: 1px solid red;
@@ -97,6 +98,9 @@ thead .cell{
 	background-color: blue;
     color: #FFFFFF;
 }
+thead .cell label{
+    cursor: pointer;
+}
 .dropdown_container .dropdown_label{
 	padding-right: 5px;
 }
@@ -106,6 +110,7 @@ thead .cell{
     border: 1px solid #CCCCCC;
     width: auto;
     color: green;
+    cursor: pointer;
 }
 .search_field{
 	margin-right: 5px;
